@@ -41,7 +41,7 @@ function [neighbors] = neighbors(num, rows, cols)
 k = 0; %num of neighbors
 %Neighbor beneath
 Bottom = 0;
-if num/rows ~= ceil(num/rows)   %ie not at bottom of matrix
+if num/rows ~= ceil(num/rows)
     k = k+1;
     Bottom = 1;
     neighbors(k) = num+1;
