@@ -8,6 +8,7 @@ dim = 200;
 
 %Initialize the sandpile
 %A = floor(4*rand(dim,dim));
+%A = 3.*ones(dim,dim);
 A = zeros(dim,dim);
 
 %Perturb the sandpile
