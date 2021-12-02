@@ -3,7 +3,7 @@
 
 %% Main
 
-%The number of dimensions of the sandpile
+%Dimensions of the sandpile
 dim = 200;
 
 %Initialize the sandpile
